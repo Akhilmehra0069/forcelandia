@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>EVENT ˣ HTML Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;EVENT ˣ&rdquo; Documentation by &ldquo;Ondrej Lechan&rdquo; v1.0.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;EVENT ˣ HTML Template&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 28/20/2014<br>
+					By: Ondrej Lechan<br>
+					Email: <a href="mailto:ondrej.lechan@gmail.com">ondrej.lechan@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my template.</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#folder-structure">Folder Structure</a></li>
+            <li><a href="#expand">"Expand" class </a></li>
+            <li><a href="#map">Map setup</a></li>
+		</ol>
+		
+		<hr>
+
+        <h3 id="folder-structure"><strong>Folder Structure</strong></h3>
+        <ul style="margin-bottom: 50px">
+            <li><strong>Documentation</strong> - Folder with this documentation</li>
+            <li><strong>HTML</strong> - Template source files</li>
+        </ul>
+
+        <hr>
+
+        <h3 id="expand"><strong>"Expand" class </strong></h3>
+        <h4><strong>Expand class in the slider title</strong></h4>
+        <p>You can set the background of the title in slider to be expanded or to be the same width as a title. To expand it (like on demo website) include <strong>expand</strong> class near the <code>title</code> class</p>
+<pre>
+&lt;div class="title <strong>expand</strong> move""&gt;&lt;h1"&gt;Web Design 3.0&lt;/h1"&gt;&lt;/div"&gt;
+</pre>
+        <h4>Expand class for expanding blocks of content</h4>
+        <p>You can also expand background color of the content to the right or left. To achieve that:</p>
+        <ul>
+            <li>Include <strong>expand</strong> class near the <code>block</code> class</li>
+            <li>Then enter <strong>left</strong> or <strong>right</strong> class in the same place
+                <br><br>
+                So for example if you want to expand <code>#testimonials</code> section to the right:
+                <br>
+                <code>&lt;section id="testimonials" class="block <strong>expand right</strong> background-color-grey-light"&gt;</code>
+            </li>
+        </ul>
+
+        <hr>
+
+        <h3 id="map"><strong>Map setup</strong></h3>
+        <h4><strong>Set the center of map</strong></h4>
+        <ul>
+            <li>Find out <code>latitude</code> and <code>longitude</code> of your desired map center</li>
+            <li>Edit <strong>_latitude</strong> and <strong>_longitude</strong> variables in the footer by new values</li>
+        </ul>
+        <h4><strong>Edit the address in the map marker</strong></h4>
+        <ul>
+            <li>Find <code>markerAddress</code> variable</li>
+            <li>Edit it in this way: <code>"Your address"</code> - you need to keep the quotes!</li>
+            <li>If you want to add new line, add &lt;br&gt; tag.
+                <br>For example: <code>"16-22 Great Russell St,<strong>&lt;br&gt;</strong> Los Angeles, United States"</code></li>
+        </ul>
+        <hr>
+
+        <h3 id="universal-classes"><strong>Universal classes</strong></h3>
+        <p>You can use some of the universal classes in the HTML, so you don't need to create CSS style for every element</p>
+        <ul>
+            <li><strong>background-color-grey-light</strong> - set the background color to light grey</li>
+            <li><strong>background-color-grey-dark</strong> - set the background color to dark grey</li>
+            <li><strong>background-color-default</strong> - set the background color to the one you have selected as default</li>
+        </ul>
+        <hr>
+
+        <p><strong>Icons used</strong></p>
+        <ul>
+            <li><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></li>
+        </ul>
+		
+		<p class="append-bottom alt large"><strong>Ondrej Lechan</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
