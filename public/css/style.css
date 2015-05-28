@@ -157,6 +157,10 @@ p {
   line-height: 24px;
 }
 
+.hide {
+    visibility: hidden;
+}
+
 .background-color-grey-light {
   background-color: whitesmoke;
 }
