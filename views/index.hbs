@@ -82,6 +82,131 @@
     <!-- Page Content -->
     <div id="page-content">
 
+        <!-- About -->
+        <section id="about" class="block expand left background-color-grey-light">
+            <div class="container">
+                <header>
+                    <h2><a href="#about" class="roll">About the Conference</a></h2>
+                </header>
+                <section class="about">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="information">
+                                <div class="date">
+                                    <div class="day">07</div>
+                                    <div class="divider">/</div>
+                                    <div class="month">23</div>
+                                    <div class="divider">/</div>
+                                    <div class="year">2014</div>
+                                </div>
+                                <div class="location">Portland, OR</div>
+                                <div class="address">Widmer Brothers Brewing</div>
+                            </div><!-- .information -->
+                            <hr>
+                            <p>Portland brings together several good things, including our love of micro- and homebrews, and the technology that inhabits the Silicon Forest, including Salesforce. It only seemed natural to combine those two in one great event: Forcelandia. Lead by the Portland Salesforce community. Forcelandia will bring together force.com lovers of all levels to hear and learn about what can be done on the platform. Geared towards Apex developers (and developers-in-training), the sessions offered during Forcelandia will leave you with a thirst for more.</p>
+                            <p>After the event, join us at the <a href="http://www.oregonbrewfest.com" target="_blank">Oregon BrewFest</a> for more of what Portland has to offer.</p>
+                        </div>
+                    </div><!-- .row -->
+                </section><!-- .about -->
+            </div><!-- .container -->
+        </section>
+        <!-- end About -->
+
+        <!-- Speakers -->
+        <section id="speakers" class="block">
+            <div class="container">
+                <header>
+                    <h2><a href="#speakers" class="roll">Speakers</a></h2>
+                </header>
+                <section class="speakers background-stripe">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="speaker">
+                                <aside class="image">
+                                    <div class="plus-wrapper" data-toggle="modal" data-target="#modal1">
+                                        <div class="plus"><i class="fa fa-plus"></i></div>
+                                    </div>
+                                    <img src="https://pbs.twimg.com/profile_images/378800000436218756/39224929faf08787925d7031c5691260_400x400.jpeg" alt="">
+                                </aside>
+                                <h3>Peter Coffee</h3>
+                                <h4>Salesforce.com</h4>
+                            </div><!-- .speaker -->
+                        </div><!-- .col-md-3 -->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="speaker">
+                                <aside class="image">
+                                    <div class="plus-wrapper" data-toggle="modal" data-target="#modal2">
+                                        <div class="plus"><i class="fa fa-plus"></i></div>
+                                    </div>
+                                    <img src="http://community.topcoder.com/i/m/jeffdonthemic.jpeg" alt="">
+                                </aside>
+                                <h3>Jeff Douglas</h3>
+                                <h4>Appirio & Topcoder</h4>
+                            </div><!-- .speaker -->
+                        </div><!-- .col-md-3 -->
+                        <div class="col-md-3 col-sm-3 hide">
+                            <div class="speaker">
+                                <aside class="image">
+                                    <div class="plus-wrapper" data-toggle="modal" data-target="#modal3">
+                                        <div class="plus"><i class="fa fa-plus"></i></div>
+                                    </div>
+                                    <img src="https://pbs.twimg.com/profile_images/498956614565494784/MZqtbWeF.jpeg" alt="">
+                                </aside>
+                                <h3>Brad Gross</h3>
+                                <h4>Information Logistics</h4>
+                            </div><!-- .speaker -->
+                        </div><!-- .col-md-3 -->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="speaker">
+                                <aside class="image">
+                                    <div class="plus-wrapper hide" data-toggle="modal" data-target="#modal4">
+                                        <div class="plus"><i class="fa fa-plus"></i></div>
+                                    </div>
+                                    <img src="http://www.topcoder.com/wp-content/themes/tcs-responsive/i/default-photo.png" alt="">
+                                </aside>
+                                <h3>More Speakers</h3>
+                                <h4>To Be Announced</h4>
+                            </div><!-- .speaker -->
+                        </div><!-- .col-md-3 -->
+                    </div><!-- .row -->
+                </section><!-- .speakers -->
+            </div><!-- .container -->
+        </section>
+        <!-- end Speakers -->
+        <hr>
+        <!-- Subscribe -->
+        <section id="subscribe" class="block">
+            <div class="container">
+                <header>
+                    <h2><a href="#subscribe" class="roll">Subscribe</a></h2>
+                </header>
+                <form id="form-subscribe" role="form">
+                    <div class="form-wrapper">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="subscribe-name" name="subscribe-name" placeholder="Name" required>
+                                </div><!-- /.form-group -->
+                            </div><!-- .col-md-5 -->
+                            <div class="col-md-4 col-sm-4">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="subscribe-email" name="subscribe-email" placeholder="E-mail" required>
+                                </div><!-- /.form-group -->
+                            </div><!-- .col-md-4 -->
+                            <div class="col-md-3 col-sm-4">
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary">Subscribe Now <i class="fa fa-angle-right"></i></button>
+                                </div><!-- /.form-group -->
+                            </div><!-- .col-md-3 -->
+                            <div id="form-subscribe-status" class="hide-status status-successful"></div>
+                        </div><!-- .row -->
+                    </div><!-- .form-wrapper -->
+
+                </form><!-- #form-subscribe -->
+            </div><!-- .container -->
+        </section>
+        <!-- end Subscribe -->
+
         <!-- Schedule -->
         <section class="block background-color-grey-light" id="schedule">
             <div class="container">
@@ -180,131 +305,6 @@
             </div><!-- .container -->
         </section>
         <!-- end Schedule -->
-
-        <!-- Speakers -->
-        <section id="speakers" class="block">
-            <div class="container">
-                <header>
-                    <h2><a href="#speakers" class="roll">Speakers</a></h2>
-                </header>
-                <section class="speakers background-stripe">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-3">
-                            <div class="speaker">
-                                <aside class="image">
-                                    <div class="plus-wrapper" data-toggle="modal" data-target="#modal1">
-                                        <div class="plus"><i class="fa fa-plus"></i></div>
-                                    </div>
-                                    <img src="https://pbs.twimg.com/profile_images/378800000436218756/39224929faf08787925d7031c5691260_400x400.jpeg" alt="">
-                                </aside>
-                                <h3>Peter Coffee</h3>
-                                <h4>Salesforce.com</h4>
-                            </div><!-- .speaker -->
-                        </div><!-- .col-md-3 -->
-                        <div class="col-md-3 col-sm-3">
-                            <div class="speaker">
-                                <aside class="image">
-                                    <div class="plus-wrapper" data-toggle="modal" data-target="#modal2">
-                                        <div class="plus"><i class="fa fa-plus"></i></div>
-                                    </div>
-                                    <img src="http://community.topcoder.com/i/m/jeffdonthemic.jpeg" alt="">
-                                </aside>
-                                <h3>Jeff Douglas</h3>
-                                <h4>Appirio & Topcoder</h4>
-                            </div><!-- .speaker -->
-                        </div><!-- .col-md-3 -->
-                        <div class="col-md-3 col-sm-3 hide">
-                            <div class="speaker">
-                                <aside class="image">
-                                    <div class="plus-wrapper" data-toggle="modal" data-target="#modal3">
-                                        <div class="plus"><i class="fa fa-plus"></i></div>
-                                    </div>
-                                    <img src="https://pbs.twimg.com/profile_images/498956614565494784/MZqtbWeF.jpeg" alt="">
-                                </aside>
-                                <h3>Brad Gross</h3>
-                                <h4>Information Logistics</h4>
-                            </div><!-- .speaker -->
-                        </div><!-- .col-md-3 -->
-                        <div class="col-md-3 col-sm-3">
-                            <div class="speaker">
-                                <aside class="image">
-                                    <div class="plus-wrapper hide" data-toggle="modal" data-target="#modal4">
-                                        <div class="plus"><i class="fa fa-plus"></i></div>
-                                    </div>
-                                    <img src="http://www.topcoder.com/wp-content/themes/tcs-responsive/i/default-photo.png" alt="">
-                                </aside>
-                                <h3>More Speakers</h3>
-                                <h4>To Be Announced</h4>
-                            </div><!-- .speaker -->
-                        </div><!-- .col-md-3 -->
-                    </div><!-- .row -->
-                </section><!-- .speakers -->
-            </div><!-- .container -->
-        </section>
-        <!-- end Speakers -->
-        <hr>
-        <!-- Subscribe -->
-        <section id="subscribe" class="block">
-            <div class="container">
-                <header>
-                    <h2><a href="#subscribe" class="roll">Subscribe</a></h2>
-                </header>
-                <form id="form-subscribe" role="form">
-                    <div class="form-wrapper">
-                        <div class="row">
-                            <div class="col-md-5 col-sm-4">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="subscribe-name" name="subscribe-name" placeholder="Name" required>
-                                </div><!-- /.form-group -->
-                            </div><!-- .col-md-5 -->
-                            <div class="col-md-4 col-sm-4">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="subscribe-email" name="subscribe-email" placeholder="E-mail" required>
-                                </div><!-- /.form-group -->
-                            </div><!-- .col-md-4 -->
-                            <div class="col-md-3 col-sm-4">
-                                <div class="form-group">
-                                    <button type="submit" class="btn btn-primary">Subscribe Now <i class="fa fa-angle-right"></i></button>
-                                </div><!-- /.form-group -->
-                            </div><!-- .col-md-3 -->
-                            <div id="form-subscribe-status" class="hide-status status-successful"></div>
-                        </div><!-- .row -->
-                    </div><!-- .form-wrapper -->
-
-                </form><!-- #form-subscribe -->
-            </div><!-- .container -->
-        </section>
-        <!-- end Subscribe -->
-
-        <!-- About -->
-        <section id="about" class="block expand left background-color-grey-light">
-            <div class="container">
-                <header>
-                    <h2><a href="#about" class="roll">About the Conference</a></h2>
-                </header>
-                <section class="about">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="information">
-                                <div class="date">
-                                    <div class="day">07</div>
-                                    <div class="divider">/</div>
-                                    <div class="month">23</div>
-                                    <div class="divider">/</div>
-                                    <div class="year">2014</div>
-                                </div>
-                                <div class="location">Portland, OR</div>
-                                <div class="address">Widmer Brothers Brewing</div>
-                            </div><!-- .information -->
-                            <hr>
-                            <p>Portland brings together several good things, including our love of micro- and homebrews, and the technology that inhabits the Silicon Forest, including Salesforce. It only seemed natural to combine those two in one great event: Forcelandia. Lead by the Portland Salesforce community. Forcelandia will bring together force.com lovers of all levels to hear and learn about what can be done on the platform. Geared towards Apex developers (and developers-in-training), the sessions offered during Forcelandia will leave you with a thirst for more.</p>
-                            <p>After the event, join us at the <a href="http://www.oregonbrewfest.com" target="_blank">Oregon BrewFest</a> for more of what Portland has to offer.</p>
-                        </div>
-                    </div><!-- .row -->
-                </section><!-- .about -->
-            </div><!-- .container -->
-        </section>
-        <!-- end About -->
 
         <!-- Register -->
         <section id="register">
@@ -414,7 +414,7 @@
                 <div class="speaker-wrapper">
                     <div class="speaker">
                         <aside class="image">
-                            <img src="img/speaker-01.png" alt="">
+                            <img src="https://pbs.twimg.com/profile_images/378800000436218756/39224929faf08787925d7031c5691260_400x400.jpeg" alt="">
                         </aside>
                     </div><!-- .speaker -->
                     <div class="speaker-name">
