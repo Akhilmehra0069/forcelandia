@@ -35,7 +35,7 @@ blockquote .cite p {
   line-height: 32px;
 }
 blockquote .cite footer {
-  color: #ff453c;
+  color: #499EE9;
   font-size: 24px;
   font-weight: bold;
   position: relative;
@@ -73,7 +73,7 @@ a {
   -moz-transition: 0.4s;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  color: #ff453c;
+  color: #499EE9;
   outline: none !important;
 }
 a:hover, a:active, a:focus {
@@ -93,7 +93,7 @@ h1 {
 h1:before {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
-  background-color: #ff453c;
+  background-color: #499EE9;
   content: "";
   left: 0;
   height: 100%;
@@ -170,7 +170,7 @@ p {
 }
 
 .background-color-default {
-  background-color: #ff453c;
+  background-color: #499EE9;
 }
 
 .block {
@@ -201,7 +201,7 @@ p {
   background-color: #1c1c1c;
 }
 .block.expand.background-color-default .container:after {
-  background-color: #ff453c;
+  background-color: #499EE9;
 }
 .block.expand.left {
   margin-right: 30px;
@@ -232,7 +232,7 @@ p {
   z-index: 2;
 }
 .about .information .date {
-  color: #ff453c;
+  color: #499EE9;
   font-size: 115px;
   font-weight: bold;
   margin: -40px 0;
@@ -261,7 +261,7 @@ p {
   F
 ****/
 .find-way .form-group {
-  background-color: #ff453c;
+  background-color: #499EE9;
   margin-bottom: 0;
   position: relative;
   min-height: 50px;
@@ -269,7 +269,7 @@ p {
   padding-left: 10px;
 }
 .find-way .form-group:after {
-  background-color: #ff453c;
+  background-color: #499EE9;
   content: "";
   display: block;
   height: 50px;
@@ -453,10 +453,10 @@ p {
   text-decoration: underline;
 }
 .modal .modal-dialog .modal-body .social a:hover {
-  color: #ff453c;
+  color: #499EE9;
 }
 .modal .modal-dialog .modal-footer {
-  background-color: #ff453c;
+  background-color: #499EE9;
   border: none;
   margin-top: 0;
   padding: 0;
@@ -584,7 +584,7 @@ p {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   bottom: 0;
-  color: #ff453c;
+  color: #499EE9;
   height: 12px;
   margin: auto;
   font-size: 10px;
@@ -610,7 +610,7 @@ p {
   font-weight: bold;
 }
 .panel-group .panel .panel-header .time i {
-  color: #ff453c;
+  color: #499EE9;
   display: inline-block;
   font-size: 24px;
   left: 1px;
@@ -681,7 +681,7 @@ p {
   display: inline-block;
 }
 .slider .overlay .information > div i {
-  color: #ff453c;
+  color: #499EE9;
   font-size: 28px;
   margin-right: 10px;
   vertical-align: bottom;
@@ -804,7 +804,7 @@ p {
   -moz-transition: 0.4s;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  background-color: #ff453c;
+  background-color: #499EE9;
   height: 55px;
   width: 55px;
   display: block;
@@ -820,7 +820,7 @@ p {
 #testimonials .quote {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
-  color: #ff453c;
+  color: #499EE9;
   height: 20px;
   font-size: 320px;
   font-weight: bold;
@@ -863,7 +863,7 @@ p {
   margin-bottom: 0;
 }
 .ticket header figure {
-  color: #ff453c;
+  color: #499EE9;
   font-size: 24px;
   font-weight: bold;
 }
@@ -882,7 +882,7 @@ p {
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 .ticket ul li.checked i {
-  color: #ff453c;
+  color: #499EE9;
 }
 .ticket ul li.unchecked {
   color: rgba(0, 0, 0, 0.2);
@@ -935,16 +935,16 @@ p {
   box-shadow: 0px 1px 2px transparent, inset 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .btn.btn-default, select.btn-default {
-  color: #ff453c;
+  color: #499EE9;
 }
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active, select.btn-default:hover, select.btn-default:focus, select.btn-default:active {
   background-color: #fff;
 }
 .btn.btn-default i, select.btn-default i {
-  color: #ff453c;
+  color: #499EE9;
 }
 .btn.btn-primary, select.btn-primary {
-  background-color: #ff453c;
+  background-color: #499EE9;
 }
 .btn.btn-primary:hover, select.btn-primary:hover {
   background-color: #ff281d;
@@ -1047,7 +1047,7 @@ form.background-color-default .bootstrap-select .dropdown-menu {
   border: none;
 }
 form.background-color-default .form-wrapper {
-  background-color: #ff453c;
+  background-color: #499EE9;
 }
 form.background-color-default .form-wrapper input[type="text"], form.background-color-default .form-wrapper input[type="email"], form.background-color-default .form-wrapper input[type="search"], form.background-color-default .form-wrapper input[type="password"], form.background-color-default .form-wrapper input[type="number"], form.background-color-default .form-wrapper input[type="tel"], form.background-color-default .form-wrapper textarea.form-control {
   -moz-box-shadow: none;
@@ -1112,7 +1112,7 @@ form.background-color-default .form-wrapper input[type="text"]:hover, form.backg
   -moz-transition: 0.8s;
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  color: #ff453c;
+  color: #499EE9;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1320,7 +1320,7 @@ input[type="text"]:hover, input[type="email"]:hover, input[type="search"]:hover,
   font-variant: normal;
   line-height: 1;
   text-transform: none;
-  color: #ff453c;
+  color: #499EE9;
   content: "\f107";
   font-size: 18px;
   position: absolute;
@@ -1348,7 +1348,7 @@ input[type="text"]:hover, input[type="email"]:hover, input[type="search"]:hover,
   -moz-transition: 0.3s;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  color: #ff453c;
+  color: #499EE9;
   content: "\f00c";
   font-size: 14px;
   position: absolute;
@@ -1401,7 +1401,7 @@ input[type="text"]:hover, input[type="email"]:hover, input[type="search"]:hover,
   padding: 15px 15px;
 }
 .bootstrap-select .dropdown-menu li a:hover {
-  background-color: #ff453c;
+  background-color: #499EE9;
   color: #fff;
   padding-left: 20px;
 }
@@ -1422,7 +1422,7 @@ footer {
   overflow: hidden;
 }
 footer a {
-  color: #ff453c;
+  color: #499EE9;
 }
 footer h2 a {
   color: #1c1c1c;
@@ -1441,7 +1441,7 @@ footer .footer-bottom .contact > span {
   margin-top: 15px;
 }
 footer .footer-bottom .contact h3 {
-  color: #ff453c;
+  color: #499EE9;
   font-size: 48px;
   font-weight: bold;
 }
@@ -1454,7 +1454,7 @@ footer .footer-bottom .contact .social a {
   text-decoration: underline;
 }
 footer .footer-bottom .contact .social a:hover {
-  color: #ff453c;
+  color: #499EE9;
 }
 
 @media (min-width: 992px) {
@@ -1629,10 +1629,10 @@ footer .footer-bottom .contact .social a:hover {
   padding-left: 20px;
 }
 .navigation .navbar .navbar-collapse .nav li.active a {
-  color: #ff453c;
+  color: #499EE9;
 }
 .navigation .navbar .navbar-collapse .nav li.active a:after {
-  background-color: #ff453c;
+  background-color: #499EE9;
   width: 100%;
 }
 .navigation .navbar .navbar-collapse .nav li a {
@@ -1653,7 +1653,7 @@ footer .footer-bottom .contact .social a:hover {
   -moz-transition-timing-function: cubic-bezier(0.25, 0, 0, 1);
   -webkit-transition-timing-function: cubic-bezier(0.25, 0, 0, 1);
   transition-timing-function: cubic-bezier(0.25, 0, 0, 1);
-  background-color: #ff453c;
+  background-color: #499EE9;
   content: "";
   left: 0;
   height: 2px;
@@ -1663,10 +1663,10 @@ footer .footer-bottom .contact .social a:hover {
 }
 .navigation .navbar .navbar-collapse .nav li a:hover {
   background-color: transparent;
-  color: #ff453c;
+  color: #499EE9;
 }
 .navigation .navbar .navbar-collapse .nav li a:hover:after {
-  background-color: #ff453c;
+  background-color: #499EE9;
   width: 100%;
 }
 .navigation .navbar .navbar-collapse .nav li a:active, .navigation .navbar .navbar-collapse .nav li a:focus {
