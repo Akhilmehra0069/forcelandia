@@ -149,7 +149,8 @@ $(window).load(function(){
             dots: false,
             animateOut: 'fadeOut',
             navigationText: ["",""],
-			loop: true
+			loop: true,
+            singleItem: true
         });
 
         $(".testimonials-carousel").owlCarousel({
