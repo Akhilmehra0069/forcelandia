@@ -5,5 +5,11 @@ var router = express.Router();
 router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
+router.get('/forcelandia2015', function(req, res) {
+  res.render('forcelandia2015', { title: 'forcelandia2015' });
+});
+router.get('/sponsors', function(req, res) {
+  res.render('sponsors', { title: 'sponsors' });
+});
 
 module.exports = router;

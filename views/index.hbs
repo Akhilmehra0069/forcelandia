@@ -2,6 +2,7 @@
 
 <html lang="en-US">
 <head>
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="ThemeStarz">
@@ -37,12 +38,15 @@
                 <div class="navigation-wrapper">
                     <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
                         <ul class="nav navbar-nav">
-                            <li><a href="#top" class="fade-in">Home</a></li>
                             <li><a href="#about" class="fade-in">About</a></li>
-                            <li><a href="#speakers" class="fade-in">Speakers</a></li>
+                            <li><a href="#organizers" class="fade-in">Organizers</a></li>
+                            <li><a href="#speakers" class="fade-in hide">Speakers</a></li>
+                            <li><a href="#subscribe" class="fade-in">Subscribe</a></li>
                             <li><a href="#schedule" class="fade-in hide">Schedule</a></li>
                             <li><a href="#register" class="fade-in hide">Register</a></li>
                             <li><a href="#contact" class="fade-in">Contact</a></li>
+                            <li><a href="sponsors" class="fade-in">Sponsors</a></li>
+                            <li><a href="forcelandia2015" class="fade-in">2015</a></li>
                         </ul>
                     </nav><!-- /.navbar collapse-->
                 </div>
@@ -55,11 +59,14 @@
     <div class="slider">
         <div class="overlay">
             <div class="container">
-                <div class="information fade-in move">
+                <div class="information fade-in move hide">
                     <div><i class="fa fa-map-marker"></i>Portland, OR</div>
                     <div><i class="fa fa-calendar"></i>7/28/2016</div>
                 </div>
                 <div class="title-wrapper fade-in">
+                    <div class="f-logo">
+                        <img src="/img/FORCELANDIA_LOGO_CIRCLES.png" alt="logo" />
+                    </div>
                     <div class="title expand move"><h1>Forcelandia</h1></div>
                     <div class="title expand move"><h1>Keep Code Weird!</h1></div>
                 </div>
@@ -113,139 +120,111 @@
             </div><!-- .container -->
         </section>
         <!-- end About -->
-
-        <!-- Speakers -->
-        <section id="speakers" class="block">
+        <!-- Twitter -->
+        <section id="twitter-contact" class="block">
             <div class="container">
-                <header>
-                    <h2><a href="#speakers" class="roll">Speakers</a></h2>
-                </header>
-                <section class="speakers background-stripe">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-3">
-                            <div class="speaker">
-                                <aside class="image">
-                                    <div class="plus-wrapper" data-toggle="modal" data-target="#modal1">
-                                        <div class="plus"><i class="fa fa-plus"></i></div>
-                                    </div>
-                                    <img src="img/PeterCoffeeSalesforceDotCom_sq300.jpg" alt="Peter Coffee">
-                                </aside>
-                                <h3>Peter Coffee</h3>
-                                <h4>VP for Strategic Research at salesforce.com</h4>
-                            </div><!-- .speaker -->
-                        </div><!-- .col-md-3 -->
-                        <div class="col-md-3 col-sm-3">
-                            <div class="speaker">
-                                <aside class="image">
-                                    <div class="plus-wrapper" data-toggle="modal" data-target="#modal2">
-                                        <div class="plus"><i class="fa fa-plus"></i></div>
-                                    </div>
-                                    <img src="http://community.topcoder.com/i/m/jeffdonthemic.jpeg" alt="Jeff Douglas">
-                                </aside>
-                                <h3>Jeff Douglas</h3>
-                                <h4>Force.com MVP, Author & Lover of Hops at Appirio</h4>
-                            </div><!-- .speaker -->
-                        </div><!-- .col-md-3 -->
-                        <div class="col-md-3 col-sm-3">
-                            <div class="speaker">
-                                <aside class="image">
-                                    <div class="plus-wrapper" data-toggle="modal" data-target="#modal3">
-                                        <div class="plus"><i class="fa fa-plus"></i></div>
-                                    </div>
-                                    <img src="https://pbs.twimg.com/profile_images/498956614565494784/MZqtbWeF.jpeg" alt="Brad Gross">
-                                </aside>
-                                <h3>Brad Gross</h3>
-                                <h4>"What the heck is Wave?"</h4>
-                            </div><!-- .speaker -->
-                        </div><!-- .col-md-3 -->
-                        <div class="col-md-3 col-sm-3">
-                            <div class="speaker">
-                                <aside class="image">
-                                    <div class="plus-wrapper" data-toggle="modal" data-target="#modal4">
-                                        <div class="plus"><i class="fa fa-plus"></i></div>
-                                    </div>
-                                    <img src="img/sready.jpg" alt="Samantha Ready">
-                                </aside>
-                                <h3>Samantha Ready</h3>
-                                <h4>Senior Developer Evangelist at salesforce.com</h4>
-                            </div><!-- .speaker -->
-                        </div><!-- .col-md-3 -->
-                        <div class="col-md-3 col-sm-3">
-                            <div class="speaker">
-                                <aside class="image">
-                                    <div class="plus-wrapper" data-toggle="modal" data-target="#modal5">
-                                        <div class="plus"><i class="fa fa-plus"></i></div>
-                                    </div>
-                                    <img src="img/dappleman.jpg" alt="Dan Appleman">
-                                </aside>
-                                <h3>Dan Appleman</h3>
-                                <h4>MVP & author of "Advanced Apex Programming for Salesforce.com and Force.com"</h4>
-                            </div><!-- .speaker -->
-                        </div><!-- .col-md-3 -->
-                        <div class="col-md-3 col-sm-3">
-                            <div class="speaker">
-                                <aside class="image">
-                                    <div class="plus-wrapper" data-toggle="modal" data-target="#modal6">
-                                        <div class="plus"><i class="fa fa-plus"></i></div>
-                                    </div>
-                                    <img src="https://media.licdn.com/media/AAEAAQAAAAAAAANrAAAAJDgxZmE5ZmI2LTdkYTktNGFlYS1iYTRlLThkMmViMWQ0ZmI0NA.jpg" alt="Kieren Jameson">
-                                </aside>
-                                <h3>Kieren Jameson</h3>
-                                <h4>Digital Solutions Manager</h4>
-                            </div><!-- .speaker -->
-                        </div><!-- .col-md-3 -->
-                        <div class="col-md-3 col-sm-3">
-                            <div class="speaker">
-                                <aside class="image">
-                                    <div class="plus-wrapper" data-toggle="modal" data-target="#modal7">
-                                        <div class="plus"><i class="fa fa-plus"></i></div>
-                                    </div>
-                                    <img src="https://media.licdn.com/media/p/8/005/095/22f/12d12ad.jpg" alt="Beth Breisness">
-                                </aside>
-                                <h3>Beth Breisness</h3>
-                                <h4>Consultant at Bigger Boat Consulting</h4>
-                            </div><!-- .speaker -->
-                        </div><!-- .col-md-3 -->
-                        <div class="col-md-3 col-sm-3">
-                            <div class="speaker">
-                                <aside class="image">
-                                    <div class="plus-wrapper hide" data-toggle="modal" data-target="#modal4">
-                                        <div class="plus"><i class="fa fa-plus"></i></div>
-                                    </div>
-                                    <img src="http://www.topcoder.com/wp-content/themes/tcs-responsive/i/default-photo.png" alt="">
-                                </aside>
-                                <h3>More Speakers</h3>
-                                <h4>To Be Announced</h4>
-                            </div><!-- .speaker -->
-                        </div><!-- .col-md-3 -->
-                    </div><!-- .row -->
-                </section><!-- .speakers -->
+                <div class="row">
+                    <section id="twitter" class="col-sm-6" >
+                        <a class="twitter-timeline" href="https://twitter.com/Forcelandia" data-widget-id="638091072351027201">Tweets by @Forcelandia</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </section>
+
+                    <section id="contact" class="col-sm-6">
+                        <header>
+                            <h2><a href="#contact" class="roll">Follow us on Twitter</a></h2>
+                        </header>
+                        <div class="social">
+                            <h3><a href="http://www.twitter.com/forcelandia" target="_blank">@forcelandia</a></h3>
+                        </div>
+                        <br/>
+                        <span>
+                            <h4><i>Reach us at </i><a href='m&#97;&#105;&#108;&#116;o&#58;sal&#101;%&#55;3for&#99;&#101;&#100;%65&#118;%73&#37;70dx&#64;g&#37;6Dai&#108;&#46;com'>salesforce&#100;evs&#112;d&#120;&#64;gmail&#46;c&#111;m</a><i> for any questions</i></h4>
+                        </span>
+                    </section>
+                    <hr/>
+
+                    <!-- Organizers -->
+                    <section id="organizers" class="col-sm-6" style="padding-top:50px">
+                        <header>
+                            <h2><a href="#organizers" class="roll">Organizers</a></h2>
+                        </header>
+                        <section class="speakers background-stripe">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="speaker">
+                                        <aside class="image">
+                                            <div class="plus-wrapper" data-toggle="modal" data-target="#modalA">
+                                                <div class="plus"><i class="fa fa-plus"></i></div>
+                                            </div>
+                                            <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/05d/314/2c4d23d.jpg" alt="Angela Mahoney" />
+                                        </aside>
+                                        <h3>Angela Mahoney</h3>
+                                        <h4>Sales Cloud Consultant and force.com MVP</h4>
+                                    </div><!-- .speaker -->
+                                </div><!-- .col-md-3 -->
+                                <div class="col-md-6">
+                                    <div class="speaker">
+                                        <aside class="image">
+                                            <div class="plus-wrapper" data-toggle="modal" data-target="#modalB">
+                                                <div class="plus"><i class="fa fa-plus"></i></div>
+                                            </div>
+                                            <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAD6AAAAJGM3NjFmNjgxLWNiMDMtNGRhMy05ZjNkLTUwYzUzOTgwYjU3NA.jpg" alt="Larry Latimer" />
+                                        </aside>
+                                        <h3>Larry Latimer</h3>
+                                        <h4>Certified Salesforce Administrator and Certified Salesforce Developer</h4>
+                                    </div><!-- .speaker -->
+                                </div><!-- .col-md-3 -->
+                            </div><!-- .row -->
+                        </section><!-- .Organizers -->
+                    </section>
+                    <!-- end Organizers -->
+                </div><!-- .row -->
             </div><!-- .container -->
         </section>
-        <!-- end Speakers -->
-        <hr>
+        <!-- end Twitter -->
+        <hr/>
         <!-- Subscribe -->
-        <section id="subscribe" class="block hide">
+        <section id="subscribe" class="block">
             <div class="container">
                 <header>
                     <h2><a href="#subscribe" class="roll">Subscribe</a></h2>
                 </header>
-                <form id="form-subscribe" role="form">
+                <form id="form-w2l" role="form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                    <input type=hidden name="oid" value="00Di0000000iZN6">
+                    <input type=hidden name="retURL" value="http://forcelandia-dev.herokuapp.com/">
+                    <input type=hidden id="lead_source" name="lead_source" value="Forcelandia Subscribe">
+                    <input type=hidden id="Company" name="company" value="No Company">
                     <div class="form-wrapper">
                         <div class="row">
                             <div class="col-md-5 col-sm-4">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="subscribe-name" name="subscribe-name" placeholder="Name" required>
+                                    <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First" maxlength="40" size="20" required>
+                                </div><!-- /.form-group -->
+                            </div><!-- .col-md-5 -->
+                            <div class="col-md-5 col-sm-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last" maxlength="80" size="20" required>
                                 </div><!-- /.form-group -->
                             </div><!-- .col-md-5 -->
                             <div class="col-md-4 col-sm-4">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="subscribe-email" name="subscribe-email" placeholder="E-mail" required>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" maxlength="80" required>
+                                </div><!-- /.form-group -->
+                            </div><!-- .col-md-4 -->
+                            <div class="col-md-4 col-sm-4">
+                                <div class="form-group">
+                                    <select  id="00Ni000000DXnjH" name="00Ni000000DXnjH" title="Salesforce Role">
+                                        <option value="">--Role--</option>
+                                        <option value="Admin">Admin</option>
+                                        <option value="Developer">Developer</option>
+                                        <option value="End User">End User</option>
+                                        <option value="BSA">BSA</option>
+                                        <option value="Manager">Manager</option>
+                                    </select>
                                 </div><!-- /.form-group -->
                             </div><!-- .col-md-4 -->
                             <div class="col-md-3 col-sm-4">
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary">Subscribe Now <i class="fa fa-angle-right"></i></button>
+                                    <button type="submit" name="submit" class="btn btn-primary">Subscribe Now <i class="fa fa-angle-right"></i></button>
                                 </div><!-- /.form-group -->
                             </div><!-- .col-md-3 -->
                             <div id="form-subscribe-status" class="hide-status status-successful"></div>
@@ -257,453 +236,8 @@
         </section>
         <!-- end Subscribe -->
 
-        <!-- Schedule -->
-        <section class="block background-color-grey-light hide" id="schedule">
-            <div class="container">
-                <header>
-                    <h2><a href="#schedule" class="roll">Schedule</a></h2>
-                </header>
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="active"><a href="#july-23" role="tab" data-toggle="tab">Thursday, July 23</a></li>
-                </ul>
-                <h3>Track 1</h3>
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div class="tab-pane fade in active" id="july-23a">
-                        <div class="panel-group" id="schedule-table-july-23a">
-                            <div class="panel panel-default">
-                                <a href="#july-23-0a" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>08:30</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Registration / Light Breakfast</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus hide"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-0a" class="panel-collapse collapse description hide">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-1a" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>09:00</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Keynote by Peter Coffee: Raising the Platform and Opening "the App"</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-1a" class="panel-collapse collapse description">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Even as we celebrate the silo-busting success of the Salesforce Customer Success Platform, the world has been deploying billions of micro-silos in the form of mobile apps. Tomorrow's app development must become the addition of chapters to our shared encyclopedia of APIs -- not merely composing, but continually refining their stories with the aid of enriched machine intelligence. Peter Coffee of Salesforce shares the early thinking for his Dreamforce session on the Modern Architectures track: part of the program of ninety DevZone sessions that will make this Dreamforce a must-attend for developers.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-2a" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>10:15</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Jeff Douglas: Why Heroku is the "Pliny the Elder" for Salesforce development</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus hide"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-2a" class="panel-collapse collapse description hide">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Praesent quis sem sed est feugiat tincidunt ut sit amet augue. Sed ac libero iaculis, laoreet enim nec, pretium ante. Donec facilisis, turpis eget vulputate maximus, leo augue viverra elit, nec dapibus turpis felis id magna. Mauris dapibus eleifend ipsum, a tempor massa blandit ut</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-3a" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>11:15</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Josh Boyden: Salesforce and Selenium Testing</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus hide"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-3a" class="panel-collapse collapse description hide">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Nulla volutpat aliquam augue, et ullamcorper turpis porttitor a. Duis ac faucibus augue. Maecenas vel massa varius, rhoncus nibh id, sodales nisi.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-4a" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>12:00</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Lunch</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus hide"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-4a" class="panel-collapse collapse description hide">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Nulla volutpat aliquam augue, et ullamcorper turpis porttitor a. Duis ac faucibus augue. Maecenas vel massa varius, rhoncus nibh id, sodales nisi.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-5a" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>1:15</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Samantha Ready</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus hide"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-5a" class="panel-collapse collapse description hide">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Nulla volutpat aliquam augue, et ullamcorper turpis porttitor a. Duis ac faucibus augue. Maecenas vel massa varius, rhoncus nibh id, sodales nisi.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-6a" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>2:15</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Dan Appleman</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-6a" class="panel-collapse collapse description">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Rumor has it that Dan is working furiously on the third edition of his Advanced Apex book and a few Dreamforce talks. In this session he'll preview a portion of that material including some of the more interesting design patterns, common mistakes, and language quirks that he's run into over the past year.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-7a" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>3:15</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Demo Jam / Panel Discussion</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus hide"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-7a" class="panel-collapse collapse description hide">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Nulla volutpat aliquam augue, et ullamcorper turpis porttitor a. Duis ac faucibus augue. Maecenas vel massa varius, rhoncus nibh id, sodales nisi.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-                        </div>
-                    </div><!-- .tab-pane -->
-                </div><!-- .tab-content -->
-                <h3>Track 2</h3>
-                <div class="tab-content">
-                    <div class="tab-pane fade in active" id="july-23b">
-                        <div class="panel-group" id="schedule-table-july-23b">
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-0b" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>08:30</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Registration / Light Breakfast</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus hide"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-0b" class="panel-collapse collapse description hide">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-1b" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>09:00</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Keynote by Peter Coffee: Raising the Platform and Opening "the App"</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-1b" class="panel-collapse collapse description">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Even as we celebrate the silo-busting success of the Salesforce Customer Success Platform, the world has been deploying billions of micro-silos in the form of mobile apps. Tomorrow's app development must become the addition of chapters to our shared encyclopedia of APIs -- not merely composing, but continually refining their stories with the aid of enriched machine intelligence. Peter Coffee of Salesforce shares the early thinking for his Dreamforce session on the Modern Architectures track: part of the program of ninety DevZone sessions that will make this Dreamforce a must-attend for developers.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-2b" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>10:15</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Brad Gross</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus hide"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-2b" class="panel-collapse collapse description hide">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Praesent quis sem sed est feugiat tincidunt ut sit amet augue. Sed ac libero iaculis, laoreet enim nec, pretium ante. Donec facilisis, turpis eget vulputate maximus, leo augue viverra elit, nec dapibus turpis felis id magna. Mauris dapibus eleifend ipsum, a tempor massa blandit ut</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-3b" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>11:15</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Beth Breisnes</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus hide"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-3b" class="panel-collapse collapse description hide">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Nulla volutpat aliquam augue, et ullamcorper turpis porttitor a. Duis ac faucibus augue. Maecenas vel massa varius, rhoncus nibh id, sodales nisi.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-4b" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>12:00</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Lunch</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus hide"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-4b" class="panel-collapse collapse description hide">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Nulla volutpat aliquam augue, et ullamcorper turpis porttitor a. Duis ac faucibus augue. Maecenas vel massa varius, rhoncus nibh id, sodales nisi.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-5b" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>1:15</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>LeeAnne Templeman and Sarah Doxsee - Trailhead</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus hide"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-5b" class="panel-collapse collapse description hide">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Nulla volutpat aliquam augue, et ullamcorper turpis porttitor a. Duis ac faucibus augue. Maecenas vel massa varius, rhoncus nibh id, sodales nisi.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-6b" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>2:15</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Kieren Jameson</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-6b" class="panel-collapse collapse description">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Ever felt you needed a decoder ring to understand developer documentation? Are you an admin wanting to understand what “those Apex coders” are talking about? Want to move from Awesome Admin to Admin who Codes (but need a translator)? You’re in the right place!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                            <div class="panel panel-default">
-                                <a href="#july-23-7b" class="panel-header" data-toggle="collapse" data-parent="#schedule-table-july-23">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2">
-                                            <div class="time">
-                                                <i class="fa fa-clock-o"></i>
-                                                <figure>3:15</figure>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10">
-                                            <div class="title"><h3>Demo Jam / Panel Discussion</h3></div>
-                                        </div>
-                                    </div>
-                                    <i class="fa fa-plus hide"></i>
-                                </a><!-- .panel-header -->
-                                <div id="july-23-7b" class="panel-collapse collapse description hide">
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                            <div class="panel-body">
-                                                <p>Nulla volutpat aliquam augue, et ullamcorper turpis porttitor a. Duis ac faucibus augue. Maecenas vel massa varius, rhoncus nibh id, sodales nisi.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- .panel-collapse -->
-                            </div><!-- .panel -->
-
-                        </div>
-                    </div><!-- .tab-pane -->
-                </div><!-- .tab-content -->
-            </div><!-- .container -->
-        </section>
-        <!-- end Schedule -->
-
         <!-- Register -->
-        <section id="register">
+        <section id="register" class="hide">
             <div class="container hide">
                 <header>
                     <h2><a href="#register" class="roll">Register</a></h2>
@@ -712,60 +246,6 @@
             </div><!-- .container -->
         </section>
         <!-- end Register -->
-
-        <!-- Testimonials -->
-        <section id="testimonials" class="block expand right background-color-grey-light hide">
-            <div class="container">
-                <div class="quote">“</div>
-                <div class="owl-carousel testimonials-carousel">
-                    <blockquote class="testimonial">
-                        <figure>
-                            <div class="image">
-                                <img alt="" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/068/110/0dc3e0d.jpg" alt="">
-                            </div>
-                        </figure>
-                        <aside class="cite">
-                            <p>This conference sounds right up my alley. Salesforce and beer? Plus summer in Portland during Oregon BrewFest? Is a moustache required?</p>
-                            <footer>Joshua Hoskins</footer>
-                            <figure>Beer Drinker, Salesforce MVP & Cool Guy</figure>
-                        </aside>
-                    </blockquote>
-                </div><!-- /.testimonials-carousel -->
-            </div><!-- .container -->
-        </section>
-        <!-- end Testimonials -->
-
-        <!-- Partners -->
-        <section id="partners" class="block">
-            <div class="container">
-                <header>
-                    <h2><a href="#tickets" class="roll">Sponsors</a></h2>
-                </header>
-                <div class="logos">
-                    <div class="logo"><a href="http://appirio.com"><img src="img/appirio-logo.png" alt="Appirio" width="250"></a></div>
-                    <div class="logo"><a href="http://cloudbilt.com"><img src="img/MapAnything_Master_horizontal_byCloudbilt.png" alt="Cloudbilt" width="250"></a></div>
-                    <div class="logo"><a href="https://developer.salesforce.com/dugs?title=page/Force.com_User_Groups"><img src="img/sfdc_developers_logo_rgb_1.0.png" alt="SFDC Developers" width="250"></a></div>
-                    <div class="logo hide"><a href=""><img src="http://ih1.redbubble.net/image.12799870.5866/sticker,375x360.u3.png" alt="" width="250"></a></div>
-                </div>
-            </div><!-- .container -->
-        </section>
-        <!-- end Partners -->
-        <!-- Partner Blurb -->
-        <section id="testimonials" class="block expand right background-color-grey-light">
-            <div class="container">
-                <div class="owl-carousel testimonials-carousel">
-                    <blockquote class="testimonial">
-                        <figure>
-                            <div class="logo"><a href="http://cloudbilt.com"><img src="img/MapAnything_Master_horizontal_byCloudbilt.png" alt="Cloudbilt" width="250"></a></div>
-                        </figure>
-                        <aside class="cite">
-                            <p style="font-size:18px">Named a Customer's Choice - Highly Reviewed App by salesforce.com, MapAnything is the most comprehensive geo-analytics solution available for Salesforce users. It maps all of your Salesforce data (custom and standard objects) and its proprietary cross object query engine connects your data like never before.</p>
-                        </aside>
-                    </blockquote>
-                </div><!-- /.testimonials-carousel -->
-            </div><!-- .container -->
-        </section>
-        <!-- end Partner Blurb -->
     </div>
     <!-- end Page Content -->
 
@@ -791,27 +271,6 @@
             </div><!-- .container -->
         </section>
         <div id="map" class="hide"></div><!-- #map -->
-        <div id="filler"><br/><br/><br/></div><!-- added for space -->
-        <section class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7 col-sm-6">
-                        <section class="copyright">
-                            <span>Copyright © Forcelandia, 2015</span>
-                        </section>
-                    </div><!-- .col-md-7 -->
-                    <div class="col-md-5 col-sm-6">
-                        <section class="contact float">
-                            <h3>Get Connected</h3>
-                            <div class="social">
-                                <a href="http://www.twitter.com/forcelandia" target="_blank">@forcelandia</a>
-                            </div>
-                            <span>Reach us at <a href='m&#97;&#105;&#108;&#116;o&#58;sal&#101;%&#55;3for&#99;&#101;&#100;%65&#118;%73&#37;70dx&#64;g&#37;6Dai&#108;&#46;com'>salesforce&#100;evs&#112;d&#120;&#64;gmail&#46;c&#111;m</a> for any questions</span>
-                        </section>
-                    </div><!-- .col-md-5 -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </section>
         <!-- .footer-bottom -->
     </footer>
     <!-- end Footer -->
@@ -819,8 +278,8 @@
 </div>
 <!-- end Wrapper -->
 
-<!-- Modal -->
-<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1-label" aria-hidden="true">
+<!-- ModalA -->
+<div class="modal fade" id="modalA" tabindex="-1" role="dialog" aria-labelledby="modal1-label" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -828,12 +287,12 @@
                 <div class="speaker-wrapper">
                     <div class="speaker">
                         <aside class="image">
-                            <img src="img/PeterCoffeeSalesforceDotCom_sq300.jpg" alt="Peter Coffee">
+                            <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/05d/314/2c4d23d.jpg" alt="Angela Mahoney" />
                         </aside>
                     </div><!-- .speaker -->
                     <div class="speaker-name">
-                        <h1>Peter Coffee</h1>
-                        <h2>VP for Strategic Research at salesforce.com</h2>
+                        <h1>Angela Mahoney</h1>
+                        <h2>Certified Salesforce Administrator, Certified Salesforce Advanced Administrator, Certified Salesforce Developer, Sales Cloud Consultant and force.com MVP</h2>
                     </div>
                 </div>
             </div><!-- .modal-header -->
@@ -842,15 +301,13 @@
                     <div class="col-md-3 col-sm-3">
                         <div class="social">
                             <a class="hide" href="#">Facebook</a>
-                            <a href="https://twitter.com/petercoffee" target="_blank">@petercoffee</a>
+                            <a href="https://twitter.com/icloudsf" target="_blank">@icloudsf</a>
                             <a class="hide" href="#">YouTube</a>
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-9">
                         <h3>About me</h3>
-                        <p>Peter Coffee, VP for Strategic Research, has been with Salesforce for eight years. He had previously spent eighteen years as a technology analyst and columnist for publications including eWEEK, PC Week, PC Tech Journal and Computer Language, while authoring the Cue Publishing titles How to Program Java and Peter Coffee Teaches PCs; he was also a contributor to Wiley's Auditing Cloud Computing: A Security and Privacy Guide and to Prentice Hall's Nanotechnology: Science, Innovation, and Opportunity.</p>
-                        <p>His prior work included serving as the first Manager for Desktop Computing Planning at The Aerospace Corporation in El Segundo, where he also worked in space-asset applications of AI techniques; before that, he held project management roles at Exxon Corporation in synthetic fuels, polymer finishing and arctic resource development. He received his engineering degree from MIT in 1978 and an MBA from Pepperdine University in 1985.</p>
-                        <p>Peter looks forward to getting his physics/cryptography fix on his Powell's City of Books visit whenever he gets a chance to visit Portland. A bookshelf that isn't two-deep is underused.</p>
+                        <p>With over 12 years on the Salesforce platform, Angela started as an end-user, before transitioning to an Admin and finally a Platform Project Manager. For almost five years, Angela managed the growth of a core business solution built on the Salesforce platform, with a crack team of Salesforce Administrators, and Apex and .Net Developers. Now, as an independent consultant, she has the opportunity to work across a variety of platform and user needs, from sales to NFPs, and mobile users to in-house staff. Angela currently co-leads both the Portland Salesforce Developer Group and the Portland Girly Geeks group, and has spoken multiple times at Dreamforce, most recently co-delivering the first Dreamforce session in Spanish.</p>
                     </div>
                 </div>
             </div><!-- .modal-body -->
@@ -861,7 +318,7 @@
                             <div class="title"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></div>
                         </div>
                         <div class="col-md-4 col-sm-5">
-                            <div class="date-time">
+                            <div class="date-time hide">
                                 <div class="date">
                                     <i class="fa fa-calendar"></i>
                                     <figure>Thursday, July 23</figure>
@@ -877,10 +334,10 @@
             </div><!-- .modal-footer -->
         </div><!-- .modal-content -->
     </div><!-- .modal-dialog -->
-</div><!-- #modal1 -->
+</div><!-- #modalA -->
 
-<!-- Modal -->
-<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2-label" aria-hidden="true">
+<!-- ModalB -->
+<div class="modal fade" id="modalB" tabindex="-1" role="dialog" aria-labelledby="modal1-label" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -888,12 +345,12 @@
                 <div class="speaker-wrapper">
                     <div class="speaker">
                         <aside class="image">
-                            <img src="http://community.topcoder.com/i/m/jeffdonthemic.jpeg" alt="Jeff Douglas">
+                            <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAD6AAAAJGM3NjFmNjgxLWNiMDMtNGRhMy05ZjNkLTUwYzUzOTgwYjU3NA.jpg" alt="Larry Latimer" />
                         </aside>
                     </div><!-- .speaker -->
                     <div class="speaker-name">
-                        <h1>Jeff Douglas</h1>
-                        <h2>Senior Technical Consultant at Appirio & Developer Evangelist Architect at topcoder</h2>
+                        <h1>Larry Latimer</h1>
+                        <h2>Certified Salesforce Administrator and Certified Salesforce Developer</h2>
                     </div>
                 </div>
             </div><!-- .modal-header -->
@@ -902,72 +359,13 @@
                     <div class="col-md-3 col-sm-3">
                         <div class="social">
                             <a class="hide" href="#">Facebook</a>
-                            <a href="https://twitter.com/jeffdonthemic" target="_blank">@jeffdonthemic</a>
+                            <a href="https://twitter.com/77atimer" target="_blank">@77atimer</a>
                             <a class="hide" href="#">YouTube</a>
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-9">
                         <h3>About me</h3>
-                        <p>Jeff is a Senior Technical Consultant at Appirio, the co-author of the Salesforce Handbook, an avid blogger on all things Salesforce and Heroku and the Developer Evangelist Architect for Appirio's topcoder community. As one of the first Force.com MVPs he has contributed articles to develper.salesforce.com, participated in number open source Salesforce related projects and actively worked the word "automagical" into everyday functional documentation. He is currently traveling the country writing code and frequenting as many breweries as possible. He's proud to state that he's visited and sampled beer at every brewery in Alaska.</p>
-                    </div>
-                </div>
-            </div><!-- .modal-body -->
-            <div class="modal-footer">
-                <div class="speak">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-7">
-                            <div class="title"><h3>Why Heroku is the "Pliny the Elder" for Salesforce development.</h3></div>
-                        </div>
-                        <div class="col-md-4 col-sm-5">
-                            <div class="date-time">
-                                <div class="date">
-                                    <i class="fa fa-calendar"></i>
-                                    <figure>Thursday, July 23</figure>
-                                </div>
-                                <div class="time">
-                                    <i class="fa fa-clock-o"></i>
-                                    <figure>10:15</figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .row -->
-                </div><!-- .speak -->
-            </div><!-- .modal-footer -->
-        </div><!-- .modal-content -->
-    </div><!-- .modal-dialog -->
-</div><!-- #modal2 -->
-
-<!-- Modal -->
-<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3-label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <div class="speaker-wrapper">
-                    <div class="speaker">
-                        <aside class="image">
-                            <img src="https://pbs.twimg.com/profile_images/498956614565494784/MZqtbWeF.jpeg" alt="Brad Gross">
-                        </aside>
-                    </div><!-- .speaker -->
-                    <div class="speaker-name">
-                        <h1>Brad Gross</h1>
-                        <h2>"What the heck is Wave?"</h2>
-                    </div>
-                </div>
-            </div><!-- .modal-header -->
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-3 col-sm-3">
-                        <div class="social">
-                            <a class="hide" href="#">Facebook</a>
-                            <a href="https://twitter.com/imperialstout" target="_blank">@imperialstout</a>
-                            <a class="hide" href="#">YouTube</a>
-                        </div>
-                    </div>
-                    <div class="col-md-9 col-sm-9">
-                        <h3>About me</h3>
-                        <p>Brad Gross is the Managing Partner of Information Logistics - a full-service Salesforce consulting firm. He has been an admin/consultant of the tool since 2000 and completed well over 100 instances of salesforce.com for clients. Brad was in the inaugural class of the Salesforce MVP program and Salesforce also has awarded him with the Customer Hero Award. He rambles on twitter at <a href="https://twitter.com/imperialstout" target="_blank">@imperialstout</a> and posts almost truths at <a href="http://info-logistics.com" target="_blank">info-logistics.com</a></p>
-                        <!-- <p>Director of Technology for a Healthcare Consulting Firm. We are beta testing a force.com app in the healthcare space. Been using salesforce.com since 2000 and I'm of the opinion is you should use all of your license as possible. So I do all I can to bend salesforce to my needs.</p> -->
+                        <p>Larry has been a developer for over 12 years, with the last 7 on the Salesforce platform ecosystem. Currently a member of the IT Comerce Team at Salesforce, Larry supports the internal quoting system as well as Checkout. Previously, Larry was the Senior Apex Developer at a local energy conservation company, where he built the rebate processing solution, a core system of the company. He currently co-hosts the Portland Salesforce Developer Group and helps lead local workgroups focused on Salesforce administrators with a desire to learn to develop.</p>
                     </div>
                 </div>
             </div><!-- .modal-body -->
@@ -978,14 +376,14 @@
                             <div class="title"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></div>
                         </div>
                         <div class="col-md-4 col-sm-5">
-                            <div class="date-time">
+                            <div class="date-time hide">
                                 <div class="date">
                                     <i class="fa fa-calendar"></i>
                                     <figure>Thursday, July 23</figure>
                                 </div>
                                 <div class="time">
                                     <i class="fa fa-clock-o"></i>
-                                    <figure>TBD</figure>
+                                    <figure>09:00</figure>
                                 </div>
                             </div>
                         </div>
@@ -994,235 +392,7 @@
             </div><!-- .modal-footer -->
         </div><!-- .modal-content -->
     </div><!-- .modal-dialog -->
-</div><!-- #modal3 -->
-
-<!-- Modal -->
-<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4-label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <div class="speaker-wrapper">
-                    <div class="speaker">
-                        <aside class="image">
-                            <img src="img/sready.jpg" alt="Samantha Ready">
-                        </aside>
-                    </div><!-- .speaker -->
-                    <div class="speaker-name">
-                        <h1>Samantha Ready</h1>
-                        <h2>Senior Developer Evangelist at salesforce.com</h2>
-                    </div>
-                </div>
-            </div><!-- .modal-header -->
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-3 col-sm-3">
-                        <div class="social">
-                            <a class="hide" href="#">Facebook</a>
-                            <a href="https://twitter.com/samantha_ready" target="_blank">@samantha_ready</a>
-                            <a class="hide" href="#">YouTube</a>
-                        </div>
-                    </div>
-                    <div class="col-md-9 col-sm-9">
-                        <h3>About me</h3>
-                        <p>Samantha Ready is a senior developer evangelist at Salesforce. During her 5 year tenure, she co-authored the Salesforce1 Dev Guide, created/taught a class on Udacity centered around two passions (Music + Salesforce), and spoke in the 2014 Developer Keynote at Dreamforce on Lightning Components. She's a robotics hipster with a background in engineering, and is currently focused on front-end and mobile development. When she isn't coding, Sam is a hot sauce addict on the hunt to find the best pairings for spicy food with her favorite beers: Grapefruit Sculpin IPA, Duchesse de Bourgogne, and anything from Laguinitas Brewery!</p>
-                    </div>
-                </div>
-            </div><!-- .modal-body -->
-            <div class="modal-footer">
-                <div class="speak">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-7 hide">
-                            <div class="title"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></div>
-                        </div>
-                        <div class="col-md-4 col-sm-5">
-                            <div class="date-time">
-                                <div class="date">
-                                    <i class="fa fa-calendar"></i>
-                                    <figure>Thursday, July 23</figure>
-                                </div>
-                                <div class="time">
-                                    <i class="fa fa-clock-o"></i>
-                                    <figure>TBD</figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .row -->
-                </div><!-- .speak -->
-            </div><!-- .modal-footer -->
-        </div><!-- .modal-content -->
-    </div><!-- .modal-dialog -->
-</div><!-- #modal4 -->
-<!-- Modal -->
-<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5-label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <div class="speaker-wrapper">
-                    <div class="speaker">
-                        <aside class="image">
-                            <img src="img/dappleman.jpg" alt="Dan Appleman">
-                        </aside>
-                    </div><!-- .speaker -->
-                    <div class="speaker-name">
-                        <h1>Dan Appleman</h1>
-                        <h2>MVP & author of "Advanced Apex Programming for Salesforce.com and Force.com"</h2>
-                    </div>
-                </div>
-            </div><!-- .modal-header -->
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-3 col-sm-3">
-                        <div class="social">
-                            <a class="hide" href="#">Facebook</a>
-                            <a href="https://twitter.com/danappleman" target="_blank">@danappleman</a>
-                            <a href="http://danappleman.com/" target="_blank">danappleman.com</a>
-                        </div>
-                    </div>
-                    <div class="col-md-9 col-sm-9">
-                        <h3>About me</h3>
-                        <p>Hailing from Silicon Valley, the fantasy land of angels and unicorns, Dan Appleman began his career as a humble programmer. His destiny was changed by a chance meeting with a publisher who cursed him with a book contract. Year after year he was compelled to write books on technical and other topics, the most recent being "Advanced Apex Programming for Salesforce.com and Force.com" which helped him achieve the illustrious status of Salesforce MVP. In recent years the curse spread to authoring courses on <a href="http://pluralsight.com" target="_blank">Pluralsight.com</a> such as "The Dark Side of Technical Careers". Despite this, he never lost sight of his first true love, programming, and still does so in his role as Chief Technical Officer at Full Circle CRM, a marketing analytics company based on the Salesforce platform.</p>
-                    </div>
-                </div>
-            </div><!-- .modal-body -->
-            <div class="modal-footer">
-                <div class="speak">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-7 hide">
-                            <div class="title"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></div>
-                        </div>
-                        <div class="col-md-4 col-sm-5">
-                            <div class="date-time">
-                                <div class="date">
-                                    <i class="fa fa-calendar"></i>
-                                    <figure>Thursday, July 23</figure>
-                                </div>
-                                <div class="time">
-                                    <i class="fa fa-clock-o"></i>
-                                    <figure>TBD</figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .row -->
-                </div><!-- .speak -->
-            </div><!-- .modal-footer -->
-        </div><!-- .modal-content -->
-    </div><!-- .modal-dialog -->
-</div><!-- #modal5 -->
-<div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6-label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <div class="speaker-wrapper">
-                    <div class="speaker">
-                        <aside class="image">
-                            <img src="https://media.licdn.com/media/AAEAAQAAAAAAAANrAAAAJDgxZmE5ZmI2LTdkYTktNGFlYS1iYTRlLThkMmViMWQ0ZmI0NA.jpg" alt="Kieren Jameson">
-                        </aside>
-                    </div><!-- .speaker -->
-                    <div class="speaker-name">
-                        <h1>Kieren Jameson</h1>
-                        <h2>Digital Solutions Manager with ETR</h2>
-                    </div>
-                </div>
-            </div><!-- .modal-header -->
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-3 col-sm-3">
-                        <div class="social">
-                            <a class="hide" href="#">Facebook</a>
-                            <a href="https://twitter.com/KierenJameson" target="_blank">@KierenJameson</a>
-                            <a class="hide" href="http://www.womencodeheroes.com" target="_blank">womencodeheroes.com</a>
-                        </div>
-                    </div>
-                    <div class="col-md-9 col-sm-9">
-                        <h3>About me</h3>
-                        <p>Kieren Jameson, MLIS, is Digital Solutions Manager with ETR (a California-based non-profit focusing on health and education). She has over 20 years' experience in information architecture, graphic design, technical project management, enterprise technology management (including multiple Salesforce products) and development for a variety of online systems. She’s passionate about increasing diversity in high tech and blogs on learning Apex coding at <a target="_blank" href="http://www.womencodeheroes.com">womencodeheroes.com</a>. She and some rocking other women developers started RAD Women, an online community providing ongoing courses to teach women to code on the force.com platform. Follow her on twitter at <a href="https://twitter.com/KierenJameson" target="_blank">@KierenJameson</a>.</p>
-                        <p>Fun Beer Fact: While she feels somewhat like a traitor to her country of origin (NZ) her favorite beer is Belgium Witbier.</p>
-                    </div>
-                </div>
-            </div><!-- .modal-body -->
-            <div class="modal-footer">
-                <div class="speak">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-7 hide">
-                            <div class="title"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></div>
-                        </div>
-                        <div class="col-md-4 col-sm-5">
-                            <div class="date-time">
-                                <div class="date">
-                                    <i class="fa fa-calendar"></i>
-                                    <figure>Thursday, July 23</figure>
-                                </div>
-                                <div class="time">
-                                    <i class="fa fa-clock-o"></i>
-                                    <figure>TBD</figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .row -->
-                </div><!-- .speak -->
-            </div><!-- .modal-footer -->
-        </div><!-- .modal-content -->
-    </div><!-- .modal-dialog -->
-</div><!-- #modal6 -->
-<div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal6-label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <div class="speaker-wrapper">
-                    <div class="speaker">
-                        <aside class="image">
-                            <img src="https://media.licdn.com/media/p/8/005/095/22f/12d12ad.jpg" alt="Beth Breisness">
-                        </aside>
-                    </div><!-- .speaker -->
-                    <div class="speaker-name">
-                        <h1>Beth Breisness</h1>
-                        <h2>Consultant at Bigger Boat Consulting</h2>
-                    </div>
-                </div>
-            </div><!-- .modal-header -->
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-3 col-sm-3">
-                        <div class="social">
-                            <a class="hide" href="#">Facebook</a>
-                            <a href="https://twitter.com/bethbrains" target="_blank">@bethbrains</a>
-                            <a class="hide" href="#">YouTube</a>
-                        </div>
-                    </div>
-                    <div class="col-md-9 col-sm-9 hide">
-                        <h3>About me</h3>
-                        <p>Salesforce.com MVP</p>
-                    </div>
-                </div>
-            </div><!-- .modal-body -->
-            <div class="modal-footer">
-                <div class="speak">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-7 hide">
-                            <div class="title"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></div>
-                        </div>
-                        <div class="col-md-4 col-sm-5">
-                            <div class="date-time">
-                                <div class="date">
-                                    <i class="fa fa-calendar"></i>
-                                    <figure>Thursday, July 23</figure>
-                                </div>
-                                <div class="time">
-                                    <i class="fa fa-clock-o"></i>
-                                    <figure>TBD</figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .row -->
-                </div><!-- .speak -->
-            </div><!-- .modal-footer -->
-        </div><!-- .modal-content -->
-    </div><!-- .modal-dialog -->
-</div><!-- #modal7 -->
+</div><!-- #modalB -->
 
 <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
 <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
@@ -1334,8 +504,6 @@
 
         }
     }
-
 </script>
-
 </body>
 </html>
