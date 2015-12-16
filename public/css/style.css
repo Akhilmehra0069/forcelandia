@@ -1805,9 +1805,9 @@ footer .footer-bottom .contact .social a:hover {
   }
 
   .block {
-    padding: 25px 0;
+    padding: 50px 0;
   }
-  
+
   .block.expand.left, .block.expand.right {
     margin-right: 0;
     margin-left: 0;
@@ -1817,6 +1817,7 @@ footer .footer-bottom .contact .social a:hover {
     padding: 0;
     text-align: center;
   }
+  
   .logos .logo {
     display: block;
     margin-bottom: 30px;
