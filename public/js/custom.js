@@ -140,15 +140,15 @@ $(window).load(function(){
     if ($('.owl-carousel').length > 0) {
         setCarouselWidth();
         $("#slider").owlCarousel({
-            // autoplay: true,
-            // autoplayTimeout: 5000,
-            // mouseDrag: false,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            mouseDrag: false,
             items: 1,
 			responsiveClass: true,
-            // responsiveBaseElement: ".slide",
+            responsiveBaseElement: ".slide",
             dots: false,
-            // animateOut: 'fadeOut',
-            // navigationText: ["",""],
+            animateOut: 'fadeOut',
+            navigationText: ["",""],
 			loop: false,
             singleItem: true
         });
