@@ -144,7 +144,7 @@ $(window).load(function(){
             // autoplayTimeout: 5000,
             // mouseDrag: false,
             items: 1,
-			// responsiveClass: true,
+			responsiveClass: true,
             // responsiveBaseElement: ".slide",
             dots: false,
             // animateOut: 'fadeOut',
