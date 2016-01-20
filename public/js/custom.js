@@ -141,14 +141,14 @@ $(window).load(function(){
         setCarouselWidth();
         $("#slider").owlCarousel({
             autoplay: true,
-            autoplayTimeout: 5000,
-            mouseDrag: false,
+            // autoplayTimeout: 5000,
+            // mouseDrag: false,
             items: 1,
-			responsiveClass: true,
-            responsiveBaseElement: ".slide",
+			// responsiveClass: true,
+            // responsiveBaseElement: ".slide",
             dots: false,
-            animateOut: 'fadeOut',
-            navigationText: ["",""],
+            // animateOut: 'fadeOut',
+            // navigationText: ["",""],
 			loop: false,
             singleItem: true
         });
