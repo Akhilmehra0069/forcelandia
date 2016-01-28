@@ -42,6 +42,7 @@
                             <li><a href="#organizers" class="fade-in">Organizers</a></li>
                             <li><a href="#speakers" class="fade-in hide">Speakers</a></li>
                             <li><a href="#subscribe" class="fade-in">Subscribe</a></li>
+                            <li><a href="#location" class="fade-in">Location</a></li>
                             <li><a href="#schedule" class="fade-in hide">Schedule</a></li>
                             <li><a href="#register" class="fade-in hide">Register</a></li>
                             <li><a href="http://forcelandia.herokuapp.com/sponsors" target="_top" class="fade-in">Sponsors</a></li>
@@ -103,7 +104,7 @@
                                     <div class="year">2016</div>
                                 </div>
                                 <div class="location">Portland, OR</div>
-                                <div class="address hide">Hosted by Widmer Brothers Brewing</div>
+                                <div class="address">Mcmenamins Kennedy School</div>
                             </div><!-- .information -->
                             <hr>
                             <p>Portland brings together several good things, including our love of micro- and homebrews, and the technology that is grown in the Silicon Forest, including Salesforce. It's only natural to combine these two in one great event: Forcelandia. Lead by the Portland Salesforce community, Forcelandia brings together force.com developers of all levels to hear and learn about what is possible on the platform. Geared towards Apex developers (and developers-in-training), the sessions offered during Forcelandia will leave you with a thirst for more.</p>
@@ -244,11 +245,11 @@
     <!-- end Page Content -->
 
     <!-- Footer -->
-    <footer id="contact">
+    <footer id="location">
         <section class="footer-top">
-            <div class="container hide">
+            <div class="container">
                 <header>
-                    <h2><a href="#contact" class="roll">Contact & Location</a></h2>
+                    <h2><a href="#location" class="roll">Location</a></h2>
                 </header>
                 <div class="find-way">
                     <div class="row">
@@ -264,8 +265,10 @@
                 </div><!-- .find-way -->
             </div><!-- .container -->
         </section>
-        <div id="map" class="hide"></div><!-- #map -->
-        <!-- .footer-bottom -->
+        <div id="map" /><!-- #map -->
+        <section class="footer-bottom">
+
+        </section>
     </footer>
     <!-- end Footer -->
 
@@ -294,9 +297,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-3">
                         <div class="social">
-                            <a class="hide" href="#">Facebook</a>
                             <a href="https://twitter.com/icloudsf" target="_blank">@icloudsf</a>
-                            <a class="hide" href="#">YouTube</a>
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -305,27 +306,6 @@
                     </div>
                 </div>
             </div><!-- .modal-body -->
-            <div class="modal-footer">
-                <div class="speak">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-7 hide">
-                            <div class="title"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></div>
-                        </div>
-                        <div class="col-md-4 col-sm-5">
-                            <div class="date-time hide">
-                                <div class="date">
-                                    <i class="fa fa-calendar"></i>
-                                    <figure>Thursday, July 23</figure>
-                                </div>
-                                <div class="time">
-                                    <i class="fa fa-clock-o"></i>
-                                    <figure>09:00</figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .row -->
-                </div><!-- .speak -->
-            </div><!-- .modal-footer -->
         </div><!-- .modal-content -->
     </div><!-- .modal-dialog -->
 </div><!-- #modalA -->
@@ -352,38 +332,15 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-3">
                         <div class="social">
-                            <a class="hide" href="#">Facebook</a>
                             <a href="https://twitter.com/77atimer" target="_blank">@77atimer</a>
-                            <a class="hide" href="#">YouTube</a>
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-9">
                         <h3>About me</h3>
-                        <p>Larry has been a developer for over 12 years, with the last 7 on the Salesforce platform ecosystem. Currently a member of the IT Comerce Team at Salesforce, Larry supports the internal quoting system as well as Checkout. Previously, Larry was the Senior Apex Developer at a local energy conservation company, where he built the rebate processing solution, a core system of the company. He currently co-hosts the Portland Salesforce Developer Group and helps lead local workgroups focused on Salesforce administrators with a desire to learn to develop.</p>
+                        <p>Larry has been a developer for over 13 years, with the last 8 on the Salesforce platform ecosystem. Currently a member of the IT Comerce Team at Salesforce, Larry supports the internal quoting system as well as Checkout. Previously, Larry was the Senior Apex Developer at a local energy conservation company, where he built the rebate processing solution, a core system of the company. He currently co-hosts the Portland Salesforce Developer Group and helps lead local workgroups focused on Salesforce administrators with a desire to learn to develop.</p>
                     </div>
                 </div>
             </div><!-- .modal-body -->
-            <div class="modal-footer">
-                <div class="speak">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-7 hide">
-                            <div class="title"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></div>
-                        </div>
-                        <div class="col-md-4 col-sm-5">
-                            <div class="date-time hide">
-                                <div class="date">
-                                    <i class="fa fa-calendar"></i>
-                                    <figure>Thursday, July 23</figure>
-                                </div>
-                                <div class="time">
-                                    <i class="fa fa-clock-o"></i>
-                                    <figure>09:00</figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .row -->
-                </div><!-- .speak -->
-            </div><!-- .modal-footer -->
         </div><!-- .modal-content -->
     </div><!-- .modal-dialog -->
 </div><!-- #modalB -->
@@ -406,9 +363,9 @@
 
 <!-- Google Maps -->
 <script type="text/javascript">
-    var _latitude = 45.542033;
-    var _longitude = -122.676527;
-    var markerAddress = "Widmer Brothers Brewing Company<br>929 N Russell St<br>Portland, OR 97227";
+    var _latitude = 45.564689;
+    var _longitude = -122.630180;
+    var markerAddress = "Mcmenamins Kennedy School<br>5736 NE 33rd Ave<br>Portland, OR";
     var mapStyles = [{featureType:'water',elementType:'all',stylers:[{hue:'#d7ebef'},{saturation:-5},{lightness:54},{visibility:'on'}]},{featureType:'landscape',elementType:'all',stylers:[{hue:'#eceae6'},{saturation:-49},{lightness:22},{visibility:'on'}]},{featureType:'poi.park',elementType:'all',stylers:[{hue:'#dddbd7'},{saturation:-81},{lightness:34},{visibility:'on'}]},{featureType:'poi.medical',elementType:'all',stylers:[{hue:'#dddbd7'},{saturation:-80},{lightness:-2},{visibility:'on'}]},{featureType:'poi.school',elementType:'all',stylers:[{hue:'#c8c6c3'},{saturation:-91},{lightness:-7},{visibility:'on'}]},{featureType:'landscape.natural',elementType:'all',stylers:[{hue:'#c8c6c3'},{saturation:-71},{lightness:-18},{visibility:'on'}]},{featureType:'road.highway',elementType:'all',stylers:[{hue:'#dddbd7'},{saturation:-92},{lightness:60},{visibility:'on'}]},{featureType:'poi',elementType:'all',stylers:[{hue:'#dddbd7'},{saturation:-81},{lightness:34},{visibility:'on'}]},{featureType:'road.arterial',elementType:'all',stylers:[{hue:'#dddbd7'},{saturation:-92},{lightness:37},{visibility:'on'}]},{featureType:'transit',elementType:'geometry',stylers:[{hue:'#c8c6c3'},{saturation:4},{lightness:10},{visibility:'on'}]}];
 
     google.maps.event.addDomListener(window, 'load', initSubmitMap());
