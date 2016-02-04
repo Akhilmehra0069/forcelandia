@@ -45,8 +45,8 @@
                             <li><a href="#location" class="fade-in">Location</a></li>
                             <li><a href="#schedule" class="fade-in hide">Schedule</a></li>
                             <li><a href="#register" class="fade-in hide">Register</a></li>
-                            <li><a href="http://forcelandia.herokuapp.com/sponsors" target="_top" class="fade-in">Sponsors</a></li>
-                            <li><a href="http://forcelandia.herokuapp.com/forcelandia2015" target="_top" class="fade-in">2015</a></li>
+                            <li><a href="/sponsors" target="_top" class="fade-in">Sponsors</a></li>
+                            <li><a href="/forcelandia2015" target="_top" class="fade-in">2015</a></li>
                         </ul>
                     </nav><!-- /.navbar collapse-->
                 </div>
@@ -107,7 +107,7 @@
                                 <div class="address">Mcmenamins Kennedy School</div>
                             </div><!-- .information -->
                             <hr>
-                            <p>Portland brings together several good things, including our love of micro- and homebrews, and the technology that is grown in the Silicon Forest, including Salesforce. It's only natural to combine these two in one great event: Forcelandia. Led by the Portland Salesforce community, Forcelandia brings together force.com developers of all levels to hear and learn about what is possible on the platform. Geared towards Apex developers (and developers-in-training), the sessions offered during Forcelandia will leave you with a thirst for more.</p>
+                            <p>Portland brings together several good things, including our love of micro- and homebrews, and the technology that is grown in the Silicon Forest, including Salesforce. It's only natural to combine these two in one great event: Forcelandia. Lead by the Portland Salesforce community, Forcelandia brings together force.com developers of all levels to hear and learn about what is possible on the platform. Geared towards Apex developers (and developers-in-training), the sessions offered during Forcelandia will leave you with a thirst for more.</p>
                             <p>After the event, join us at the <a href="http://www.oregonbrewfest.com" target="_blank">Oregon BrewFest</a> for more of what Portland has to offer.</p>
                         </div>
                     </div><!-- .row -->
@@ -115,6 +115,66 @@
             </div><!-- .container -->
         </section>
         <!-- end About -->
+        <!-- Subscribe -->
+        <section id="subscribe" class="block">
+            <div class="container">
+                <header>
+                    <h2><a href="#subscribe" class="roll">Subscribe</a></h2>
+                </header>
+                <form id="form-w2l" role="form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                    <input type=hidden name="oid" value="00Di0000000iZN6">
+                    <input type=hidden name="retURL" value="http://forcelandia-dev.herokuapp.com/">
+                    <input type=hidden id="lead_source" name="lead_source" value="Forcelandia Subscribe">
+                    <input type=hidden id="Company" name="company" value="No Company">
+                    <div class="form-wrapper">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First" maxlength="40" size="20" required>
+                                </div><!-- /.form-group -->
+                            </div><!-- .col-md-5 -->
+                            <div class="col-md-5 col-sm-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last" maxlength="80" size="20" required>
+                                </div><!-- /.form-group -->
+                            </div><!-- .col-md-5 -->
+                            <div class="col-md-4 col-sm-4">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" maxlength="80" required>
+                                </div><!-- /.form-group -->
+                            </div><!-- .col-md-4 -->
+                            <div class="col-md-4 col-sm-4">
+                                <div class="form-group">
+                                    <select  id="00Ni000000DXnjH" name="00Ni000000DXnjH" title="Salesforce Role">
+                                        <option value="">--Role--</option>
+                                        <option value="Admin">Admin</option>
+                                        <option value="Developer">Developer</option>
+                                        <option value="End User">End User</option>
+                                        <option value="BSA">BSA</option>
+                                        <option value="Manager">Manager</option>
+                                    </select>
+                                </div><!-- /.form-group -->
+                            </div><!-- .col-md-4 -->
+                        </div><!-- .row -->
+                        <div class="row">
+                            <div class="col-md-5 col-sm-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="company" name="company" placeholder="Company" maxlength="40" />
+                                </div><!-- /.form-group -->
+                            </div><!-- .col-md-4 -->
+                            <div class="col-md-3 col-sm-4">
+                                <div class="form-group">
+                                    <button type="submit" name="submit" class="btn btn-primary">Subscribe Now <i class="fa fa-angle-right"></i></button>
+                                </div><!-- /.form-group -->
+                            </div><!-- .col-md-3 -->
+                            <div id="form-subscribe-status" class="hide-status status-successful"></div>
+                        </div><!-- .row -->
+                    </div><!-- .form-wrapper -->
+
+                </form><!-- #form-subscribe -->
+            </div><!-- .container -->
+        </section>
+        <!-- end Subscribe -->
         <!-- Twitter -->
         <section id="twitter-contact" class="block">
             <div class="container">
@@ -177,60 +237,6 @@
         </section>
         <!-- end Twitter -->
         <hr/>
-        <!-- Subscribe -->
-        <section id="subscribe" class="block">
-            <div class="container">
-                <header>
-                    <h2><a href="#subscribe" class="roll">Subscribe</a></h2>
-                </header>
-                <form id="form-w2l" role="form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-                    <input type=hidden name="oid" value="00Di0000000iZN6">
-                    <input type=hidden name="retURL" value="http://forcelandia-dev.herokuapp.com/">
-                    <input type=hidden id="lead_source" name="lead_source" value="Forcelandia Subscribe">
-                    <input type=hidden id="Company" name="company" value="No Company">
-                    <div class="form-wrapper">
-                        <div class="row">
-                            <div class="col-md-5 col-sm-4">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First" maxlength="40" size="20" required>
-                                </div><!-- /.form-group -->
-                            </div><!-- .col-md-5 -->
-                            <div class="col-md-5 col-sm-4">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last" maxlength="80" size="20" required>
-                                </div><!-- /.form-group -->
-                            </div><!-- .col-md-5 -->
-                            <div class="col-md-4 col-sm-4">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" maxlength="80" required>
-                                </div><!-- /.form-group -->
-                            </div><!-- .col-md-4 -->
-                            <div class="col-md-4 col-sm-4">
-                                <div class="form-group">
-                                    <select  id="00Ni000000DXnjH" name="00Ni000000DXnjH" title="Salesforce Role">
-                                        <option value="">--Role--</option>
-                                        <option value="Admin">Admin</option>
-                                        <option value="Developer">Developer</option>
-                                        <option value="End User">End User</option>
-                                        <option value="BSA">BSA</option>
-                                        <option value="Manager">Manager</option>
-                                    </select>
-                                </div><!-- /.form-group -->
-                            </div><!-- .col-md-4 -->
-                            <div class="col-md-3 col-sm-4">
-                                <div class="form-group">
-                                    <button type="submit" name="submit" class="btn btn-primary">Subscribe Now <i class="fa fa-angle-right"></i></button>
-                                </div><!-- /.form-group -->
-                            </div><!-- .col-md-3 -->
-                            <div id="form-subscribe-status" class="hide-status status-successful"></div>
-                        </div><!-- .row -->
-                    </div><!-- .form-wrapper -->
-
-                </form><!-- #form-subscribe -->
-            </div><!-- .container -->
-        </section>
-        <!-- end Subscribe -->
-
         <!-- Register -->
         <section id="register" class="hide">
             <div class="container hide">
