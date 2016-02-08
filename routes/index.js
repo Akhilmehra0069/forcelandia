@@ -11,5 +11,8 @@ router.get('/forcelandia2015', function(req, res) {
 router.get('/sponsors', function(req, res) {
   res.render('sponsors', { title: 'sponsors' });
 });
+router.get('/speakers', function(req, res) {
+  res.render('speakers', { title: 'speakers' });
+});
 
 module.exports = router;
